@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'logout.css' %}">
+
+
+{% block content %}
+<div class="logout-container">
+    <h2>Logout</h2>
+    <p>You have been logged out successfully.</p>
+    <a href="{% url 'login' %}">Go to Login</a>
+</div>
+{% endblock %}

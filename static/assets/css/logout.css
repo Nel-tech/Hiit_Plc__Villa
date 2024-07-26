@@ -1,0 +1,30 @@
+.logout-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+}
+
+.logout-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logout-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logout-container a {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.logout-container a:hover {
+    text-decoration: underline;
+}

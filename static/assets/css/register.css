@@ -1,0 +1,52 @@
+h2{
+     color: #ee626b;
+     text-align: center;
+     padding-bottom: 1rem;
+}
+.register-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(81, 79, 79);
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+label{
+    color: white;
+}
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ee626b;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    background-color:black ;
+    color: burlywood;
+    transition: ease-in 1s;
+    transform: rotateX(360deg);
+}
+ input:focus{
+    outline: #ee626b;
+color: white;
+background-color: #000000;
+}
